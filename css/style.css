@@ -1,0 +1,121 @@
+/*Global Css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul li{
+	list-style: none;
+}
+
+.container-fluid{
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+
+
+
+/* header section css*/
+
+
+header{
+	width: 100%;
+	background-color: #333;
+	height: 60px;
+	position: fixed;
+	top: 0;
+
+}
+.top-menu{
+	padding: 16px;
+}
+
+.logo{
+	position: relative;
+    float: left;
+}
+.logo h2{
+	color: #008883;
+	letter-spacing: 4px;
+}
+
+.navigation-menu{
+	float: right;
+}
+
+.navigation-menu li{
+	display: inline;
+	color: #008883;
+	padding: 10px;
+
+}
+
+/* Banner Section CSS*/
+
+.banner-section{
+	background-image: url(../images/banner.png);
+	background-size: cover;
+}
+.banner-content{
+	padding: 275px 175px 400px;
+}
+
+.banner-section-bg{
+	background: rgba(0,0,0,.4);
+	float: right;
+	padding: 10px;
+	width: 450px;
+}
+
+.banner-section-bg h1{
+	font-size: 40px;
+	color: #008883;
+	text-shadow: 1px 2px 1px #fff;
+}
+
+.banner-section-bg h3{
+	color: #008883;
+	font-size: 20px;
+	text-shadow: 1px 2px 1px #fff;
+}
+
+/* about us Section CSS */
+.about-us{
+	padding: 50px 0px;
+	text-align: justify;
+}
+.about-us p{
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+
+/* Footer section css */
+
+footer{
+	background-color: #333;
+	padding: 20px;
+}
+
+.container-fluid p{
+	text-align: center;
+	color: #008883;
+	font-size: 17px;
+
+}
+
+
+
+
+
+
